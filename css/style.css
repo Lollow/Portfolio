@@ -1,0 +1,35 @@
+.jumbotron{
+	background-image: url("../images/jumbotron.jpg");
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.jumbotron div{
+	text-align: center;
+	color: white;
+}
+
+.jumbotron div h1{
+	margin: 0;
+	font-size: 4em;
+}
+
+.jumbotron div h3{
+	margin: 0;
+	font-size: 2em;
+}
+
+.jumbotron ul{
+	list-style: none;
+	margin-right: 1.2em;
+}
+
+.jumbotron ul li{
+	margin-right: 2em;
+	display: inline;
+}
